@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Option</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+    }
+    p{
+        margin: 0;
+    }
+    .option-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin-inline: 30px;
+        margin-bottom: 60px;
+    }
+    .option-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        border-radius: 11px;
+        background-color: #EDEDED;
+        box-shadow: 0px 5px 10px -0.5rem rgba(0, 0, 0, 0.5);
+        padding-inline: 15px;
+    }
+    .text-option{
+        font-size: 12px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+</style>
+<body>
+    <section class="options">
+        <div class="option-container">
+            <div class="option-item">
+                <p class="text-option">Black-list</p>
+                <div class="icon-option-container">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="#222222"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M15 12.6111C16.6875 12.6111 18.0555 11.2431 18.0555 9.55554C18.0555 7.868 16.6875 6.49998 15 6.49998C13.3125 6.49998 11.9444 7.868 11.9444 9.55554C11.9444 11.2431 13.3125 12.6111 15 12.6111ZM15 13.4444C12.2386 13.4444 10 15.683 10 18.4444V22.0556H20V18.4444C20 15.683 17.7614 13.4444 15 13.4444Z" fill="#EB4A4A"/>
+                    </svg> 
+                </div>
+            </div>
+
+            <div class="option-item">
+                <p class="text-option">Campagne</p>
+                <div class="icon-option-container">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="#222222"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.39424 14.992L8.53631 17.114C9.32102 17.8914 10.5873 17.8855 11.3647 17.1008L19.3769 9.01302C20.1356 8.2472 19.3124 6.98833 18.3067 7.37622L7.08214 11.7051C5.72872 12.2271 5.36372 13.9711 6.39424 14.992ZM14.0436 22.5698L11.9015 20.4478C11.1168 19.6704 11.1109 18.4041 11.8882 17.6194L19.9004 9.53163C20.6591 8.76581 21.9256 9.57709 21.5472 10.5865L17.3238 21.8511C16.8146 23.2094 15.0741 23.5907 14.0436 22.5698Z" fill="white"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="option-item">
+                <p class="text-option">Segmentation</p>
+                <div class="icon-option-container">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M30 15C30 17.9667 29.1203 20.8668 27.472 23.3336C25.8238 25.8003 23.4811 27.7229 20.7403 28.8582C17.9994 29.9935 14.9834 30.2906 12.0736 29.7118C9.16393 29.133 6.49119 27.7044 4.3934 25.6066C2.29561 23.5088 0.866999 20.8361 0.288221 17.9264C-0.290558 15.0166 0.00649254 12.0006 1.14181 9.25975C2.27712 6.51886 4.19971 4.17618 6.66645 2.52796C9.13318 0.879735 12.0333 -3.53778e-08 15 0V15H30Z" fill="#1FCB4F"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="option-item">
+                <p class="text-option">Mon évolution</p>
+                <div class="icon-option-container">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="#222222"/>
+                        <path d="M4 22L10.5735 13.3865C10.9737 12.8621 11.7631 12.8621 12.1634 13.3865L15.7314 18.0618C16.1316 18.5862 16.921 18.5862 17.3213 18.0618L25 8" stroke="url(#paint0_linear_48_21)" stroke-width="2"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_48_21" x1="-1.5" y1="32.5" x2="29.5" y2="2" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#25632B"/>
+                        <stop offset="1" stop-color="#11FF0C"/>
+                        </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="option-item">
+                <p class="text-option">Liste d'attente</p>
+                <div class="icon-option-container">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="#222222"/>
+                        <rect x="10" y="9" width="13" height="2" fill="#D9D9D9"/>
+                        <rect x="8" y="14" width="13" height="2" fill="#D9D9D9"/>
+                        <rect x="6" y="19" width="13" height="2" fill="#D9D9D9"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="option-item">
+                <p class="text-option">Nous contacter</p>
+                <div class="icon-option-container">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="#222222"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.8971 10C12.3966 10 10.3187 11.8916 10.0129 14.3532C10.3639 14.4589 10.6195 14.7846 10.6195 15.17V18.4487C10.6195 18.9198 10.2376 19.3017 9.76645 19.3017H9.49229C8.1158 19.3017 6.99994 18.1859 6.99994 16.8094C6.99994 16.0035 7.38244 15.2869 7.9758 14.8313C8.05506 11.0538 11.1145 8 14.8971 8C18.6797 8 21.7391 11.0538 21.8184 14.8313C22.4117 15.2869 22.7942 16.0035 22.7942 16.8094C22.7942 17.8323 22.1779 18.7113 21.2964 19.0954L21.309 19.1386L16.7802 20.4498C16.2503 20.6032 15.6952 20.2972 15.5405 19.7664C15.3857 19.2356 15.6898 18.6809 16.2197 18.5275L19.1747 17.672V15.17C19.1747 14.7846 19.4303 14.4589 19.7812 14.3532C19.4755 11.8916 17.3976 10 14.8971 10Z" fill="#F9F9F9"/>
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>

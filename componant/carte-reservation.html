@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        margin: 0;
+    }
+    .reservation-item{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-color: rgb(228, 228, 228);
+        width: 100%;
+        height: 50px;
+    } 
+    p {
+        padding: 0;
+        margin: 0;
+    }
+    .icon-container-reservation-item svg{
+        width: 14px;
+        height: 20px;
+        margin: 15px;
+    }
+    .text-reservation-item {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+    .separator-reservation-item{
+        border: solid 0.01rem;
+        height: 20px;
+        border-color: rgb(112, 112, 112);
+        margin-right: 15px;
+    }
+</style>
+<body>
+    <div class="reservation-item">
+        <div class="icon-container-reservation-item">
+            <svg width="20" height="30" viewBox="0 0 20 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M10 11.7857C13.3751 11.7857 16.1111 9.14739 16.1111 5.89286C16.1111 2.63832 13.3751 0 10 0C6.62493 0 3.88889 2.63832 3.88889 5.89286C3.88889 9.14739 6.62493 11.7857 10 11.7857ZM10 13.3929C4.47715 13.3929 0 17.87 0 23.3929V30H20V23.3929C20 17.87 15.5228 13.3929 10 13.3929Z" fill="#282828"/>
+            </svg>
+        </div>
+        <p class="text-reservation-item" id="name">Nico</p>
+        <div class="separator-reservation-item"></div>
+        <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+        <p class="text-reservation-item">personnes</p>
+        <div class="separator-reservation-item"></div> 
+        <p class="text-reservation-item" id="date">14/08/2024</p> 
+    </div>
+</body>
+</html>

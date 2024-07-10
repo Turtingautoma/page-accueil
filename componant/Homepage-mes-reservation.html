@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body
+    {
+        margin: 0;
+    }
+    .homepage-mes-reservation{
+        display: flex;
+    }
+    .card{
+        margin-inline: 15px;
+        padding: 15px;
+        background-color: #EDEDED;
+        width: 100%;
+        height: 210px;
+    }
+    .reservation-item{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: calc(100% - 30px);
+        background-color: #ffffff;
+        padding-inline: 15px;
+    }
+    .separator-reservation-item{
+        border: solid 1px;
+        width: 0px;
+        height: 15px;
+    }
+    
+</style>
+<body>
+    <section class="homepage-mes-reservation">
+        <div class="card">
+            <div class="reservation-item">
+                <div class="icon-container-reservation-item">
+                icon
+                </div>
+                <p class="text-reservation-item">Nico</p>
+                <div class="separator-reservation-item"></div>
+                <p class="text-reservation-item" id="nbDePersonnes">4</p> 
+                <p class="text-reservation-item">personnes</p>  
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_5" data-name="Calque 5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1119.1915 1302.1622">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Dégradé_sans_nom_14);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Dégradé_sans_nom_12);
+      }
+
+      .cls-3 {
+        fill: url(#Dégradé_sans_nom_13);
+      }
+    </style>
+    <linearGradient id="Dégradé_sans_nom_12" data-name="Dégradé sans nom 12" x1="1027.9929" y1="-1725.791" x2="-98.3019" y2="-399.0722" gradientTransform="translate(0 -344) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f4df8"/>
+      <stop offset=".4561" stop-color="#9a76f3"/>
+      <stop offset="1" stop-color="#ee6ad9"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_13" data-name="Dégradé sans nom 13" x1="587.6213" y1="-314.6197" x2="1205.7658" y2="-910.0038" gradientTransform="translate(0 -344) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#834df6"/>
+      <stop offset="1" stop-color="#d54df6"/>
+    </linearGradient>
+    <linearGradient id="Dégradé_sans_nom_14" data-name="Dégradé sans nom 14" x1="566.2734" y1="-877.5095" x2="566.2734" y2="-935.1176" gradientTransform="translate(0 -344) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#834df6"/>
+      <stop offset="1" stop-color="#834df6"/>
+    </linearGradient>
+  </defs>
+  <g id="Calque_4" data-name="Calque 4">
+    <path class="cls-2" d="m1119.1915,755.4768c0,117.0832-10.6844,202.5585-75.236,301.8344-103.7277,159.821-300.4989,244.851-489.702,244.851s-389.5356-85.03-489.702-248.4124C11.1296,965.1581,0,883.2445,0,780.4069v-471.8946C0,187.8675,98.8307,89.4819,220.3659,89.4819h6.2326c121.5351,0,220.3658,97.9404,220.3658,219.0304v351.2498c0,77.9073,3.5615,230.6052,110.8507,230.6052,135.781,0,110.8507-212.7977,110.8507-298.273v-58.3191h230.16c121.5351,0,220.3659,100.6115,220.3659,221.7015Z"/>
+  </g>
+  <g id="Calque_3" data-name="Calque 3">
+    <path class="cls-3" d="m861.8753,469.2236c130.4387,0,235.9473-105.0634,235.9473-234.6118S991.869,0,861.8753,0s-235.9473,105.0634-235.9473,234.6118c0,129.9937,105.5086,234.6118,235.9473,234.6118Z"/>
+  </g>
+  <g id="Calque_2" data-name="Calque 2">
+    <path class="cls-1" d="m539.1172,533.33h72.5649v38.2999c0,10.5655-8.0133,19.37-18.2526,19.37h-54.3124c-9.794,0-18.2526-8.8046-18.2526-19.37v-19.37c0-10.1253,8.4585-18.9299,18.2526-18.9299Z"/>
+  </g>
+</svg>
